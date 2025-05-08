@@ -1,0 +1,120 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: darkslategray;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: inline;
+    color: white;
+    text-align: center; 
+    margin-right: 20px;
+    width: 100px;
+    background-color: gray;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(228, 128, 228);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: none;
+    color:red
+}
+
+li a:hover {
+    background-color: rgba(223, 144, 113, 0.651);
+    color: black;
+}
+
+
+h1 {
+    border: 2px solid black;
+    padding: 30px;
+    color: whitesmoke;
+    text-align: center;
+
+}
+h2 {
+    
+    padding: 30px;
+    color:whitesmoke;
+    text-align: center;
+
+}
+h3 {
+    
+    padding: 25px;
+    color:whitesmoke;
+    text-align: center;
+
+}
+p  {
+    
+    padding: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
+ul {
+   
+    padding: 30px;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+
+li {
+   
+    color: whitesmoke;
+}
+
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color:darkslategray;
+    background-image: url('background5.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    opacity: 1;
+}   
+
+.section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: whitesmoke;
+}
+h4 {
+    padding: 30px;
+    color:whitesmoke;
+    text-align: center;
+}
+
+img {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;   
+    background-image: auto;
+}
+
+br {
+    line-height: 2;
+    color: whitesmoke
+}
